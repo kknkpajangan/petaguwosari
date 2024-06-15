@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masjid - Peta Guwosari</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body id="body">
+    <!-- NAVBAR -->
+    <nav
+      class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
+    >
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a
+          href="home.html"
+          class="logo-flowbite flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <img src="src/img/kkn-no-text.png" class="h-10" alt="Flowbite Logo" />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+          ></span>
+        </a>
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <button
+            type="button"
+            id="get-started-btn"
+            class="text-white bg-default hover:bg-hover focus:ring-4 focus:outline-none focus:ring-ring font-semibold rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Keatas
+          </button>
+          <button
+            data-collapse-toggle="navbar-sticky"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-sticky"
+        >
+          <ul
+            class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="pesantren.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-default md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                aria-current="page"
+                >Pesantren</a
+              >
+            </li>
+            <li>
+              <a
+                href="masjid.html"
+                class="block py-2 px-3 text-white bg-default rounded md:bg-transparent md:text-default md:p-0 md:dark:text-blue-500"
+                >Masjid</a
+              >
+            </li>
+            <li>
+              <a
+                href="makam.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-default md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Makam</a
+              >
+            </li>
+            <li>
+              <a
+                href="tentang.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-default md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Tentang Kami</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- akhir nav -->
+    <!-- Masjid -->
+    <main id="masjid" class="p-10 pt-32">
+      <h1 class="font-bold text-3xl text-default mb-5">DAFTAR MASJID</h1>
+
+      <div
+        id="accordion-color"
+        data-accordion="collapse"
+        data-active-classes="bg-bg_acord dark:bg-gray-800 text-default_acord dark:text-white"
+      >
+        <h2 id="accordion-color-heading-1">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-ring_acord dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-hover_acord dark:hover:bg-gray-800 gap-3"
+            data-accordion-target="#accordion-color-body-1"
+            aria-expanded="true"
+            aria-controls="accordion-color-body-1"
+          >
+            <span>1. Masjid Tegal Rejo Kedung (1930)</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-color-body-1"
+          class="hidden"
+          aria-labelledby="accordion-color-heading-1"
+        >
+          <div
+            class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900"
+          >
+            <img
+              class="fotomasjid"
+              src="src/img/Masjid/Masjid Kedung.jpg"
+              alt=""
+            />
+            <p class="mb-2 text-gray-500 dark:text-gray-400 text-justify">
+              Masjid Tegal Rejo Kedung dibangun pada tahun 1930. Pada masa lalu,
+              masjid ini menjadi pusat peribadatan bagi warga dusun sekitar.
+              Menurut penuturan Dukuh Iroyudan, Muhammad Hisyam, sebelum Masjid
+              AlMunir Iroyudan didirikan, warga Iroyudan sering mengaji di
+              Masjid Tegal Rejo Kedung. Kini, masjid tersebut telah dipugar
+              secara keseluruhan.
+            </p>
+          </div>
+        </div>
+        <h2 id="accordion-color-heading-2">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-ring_acord dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-hover_acord dark:hover:bg-gray-800 gap-3"
+            data-accordion-target="#accordion-color-body-2"
+            aria-expanded="false"
+            aria-controls="accordion-color-body-2"
+          >
+            <span>2. Masjid Ridhoillah Kadisono (1954)</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-color-body-2"
+          class="hidden"
+          aria-labelledby="accordion-color-heading-2"
+        >
+          <div
+            class="p-5 border border-b-0 border-gray-200 dark:border-gray-700"
+          >
+            <img
+              class="fotomasjid"
+              src="src/img/Masjid/ridhoillahkadisono.jpg"
+              alt=""
+            />
+            <p class="mb-2 text-gray-500 dark:text-gray-400 text-justify">
+              Masjid Ridhoillah yang berada di sebelah KBRA Masyitoh Kadisono
+              merupakan salah satu dari sebelas masjid yang didirikan oleh Mbah
+              KH Thohir dan diperkirakan dibangun pada tahun 1954.
+            </p>
+          </div>
+        </div>
+        <h2 id="accordion-color-heading-3">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-ring_acord dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-hover_acord dark:hover:bg-gray-800 gap-3"
+            data-accordion-target="#accordion-color-body-3"
+            aria-expanded="false"
+            aria-controls="accordion-color-body-3"
+          >
+            <span>3. Masjid Ar-Ridho Santan (1955)</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-color-body-3"
+          class="hidden"
+          aria-labelledby="accordion-color-heading-3"
+        >
+          <div
+            class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+          >
+            <img
+              class="fotomasjid"
+              src="src/img/Masjid/masjidsantan.jpg"
+              alt=""
+            />
+            <p class="mb-2 text-gray-500 dark:text-gray-400 text-justify">
+              Masjid Ar-Ridho dibangun pada tahun 1955 dengan bantuan Mbah
+              Nawawi dan warga sekitar. Setelah gempa tahun 2006, masjid ini
+              dipugar secara keseluruhan sehingga tidak menyisakan bentuk
+              semula.
+            </p>
+          </div>
+        </div>
+        <h2 id="accordion-color-heading-4">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-ring_acord dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-hover_acord dark:hover:bg-gray-800 gap-3"
+            data-accordion-target="#accordion-color-body-4"
+            aria-expanded="false"
+            aria-controls="accordion-color-body-4"
+          >
+            <span>4. Masjid Al-Munir Iroyudan (1955)</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-color-body-4"
+          class="hidden"
+          aria-labelledby="accordion-color-heading-4"
+        >
+          <div
+            class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+          >
+            <img
+              class="fotomasjid"
+              src="src/img/Masjid/almunir.jpg"
+              alt="Masjid"
+            />
+            <p class="mb-2 text-gray-500 dark:text-gray-400">
+              Masjid Al-Munir dibangun pada tahun 1955 dan merupakan masjid
+              Jami. Masjid ini beralamat di Iroyudan, Guwosari, Pajangan,
+              Bantul, DI Yogyakarta. Masjid AlMunir memiliki luas tanah 144 m²
+              dan luas bangunan 574 m², dengan status tanah wakaf.
+            </p>
+          </div>
+        </div>
+        <!-- Accordion 5 -->
+        <h2 id="accordion-color-heading-5">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-ring_acord dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-hover_acord dark:hover:bg-gray-800 gap-3"
+            data-accordion-target="#accordion-color-body-5"
+            aria-expanded="false"
+            aria-controls="accordion-color-body-5"
+          >
+            <span>5. Masjid Ichsanulloh Watugedug (1959)</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-color-body-5"
+          class="hidden"
+          aria-labelledby="accordion-color-heading-5"
+        >
+          <div
+            class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+          >
+            <img
+              class="fotomasjid"
+              src="src/img/Masjid/masjidgrogol.png"
+              alt=""
+            />
+            <p class="mb-2 text-gray-500 dark:text-gray-400 text-justify">
+              Masjid Ichsanulloh adalah salah satu dari 11 masjid yang dibangun
+              oleh Kiai Thohir, seorang pendakwah besar di wilayah Pajangan.
+              Masjid ini dibangun pada tahun 1959 dan telah mengalami tiga kali
+              renovasi, dengan perbaikan terakhir pada tahun 2018. Status
+              bangunan ini adalah wakaf.
+            </p>
+          </div>
+        </div>
+
+        <!-- Repeat the structure for Accordion 6 to 15 -->
+
+        <!-- Accordion 6 -->
+        <h2 id="accordion-color-heading-6">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-ring_acord dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-hover_acord dark:hover:bg-gray-800 gap-3"
+            data-accordion-target="#accordion-color-body-6"
+            aria-expanded="false"
+            aria-controls="accordion-color-body-6"
+          >
+            <span>6. Masjid Hasanatulloh Karangber (1963)</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-color-body-6"
+          class="hidden"
+          aria-labelledby="accordion-color-heading-6"
+        >
+          <div
+            class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+          >
+            <img class="fotomasjid" src="src/img/Masjid/karangber.jpg" alt="" />
+            <p class="mb-2 text-gray-500 dark:text-gray-400">
+              Masjid Hasanatulloh, yang dikenal juga sebagai Masjid
+              Khasanatullah, adalah salah satu dari sebelas masjid yang dibangun
+              oleh Kyai Thohir. Masjid ini dibangun pada tahun 1963 di atas
+              tanah wakaf seluas 600 m² dan merupakan pusat kegiatan keagamaan
+              bagi masyarakat Karangber.
+            </p>
+          </div>
+        </div>
+
+        <!-- Repeat the structure for Accordion 7 to 15 -->
+
+        <!-- Accordion 7 -->
+        <h2 id="accordion-color-heading-7">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-ring_acord dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-hover_acord dark:hover:bg-gray-800 gap-3"
+            data-accordion-target="#accordion-color-body-7"
+            aria-expanded="false"
+            aria-controls="accordion-color-body-7"
+          >
+            <span>7. Masjid Nurul Islam Kentolan Kidul (1964)</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-color-body-7"
+          class="hidden"
+          aria-labelledby="accordion-color-heading-7"
+        >
+          <div
+            class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+          >
+            <img
+              class="fotomasjid"
+              src="src/img/Masjid/nurulislam.jpg"
+              alt=""
+            />
+            <p class="mb-2 text-gray-500 dark:text-gray-400">
+              Masjid Nurul Islam dibangun pada tahun 1964 oleh Kyai Thohir dan
+              termasuk salah satu dari sebelas masjid yang didirikannya. Proses
+              pembangunan dimotori oleh KH. Bisri. Masjid ini telah mengalami
+              satu renovasi besarbesaran setelah gempa Jogja tahun 2006, yang
+              mengakibatkan bangunan harus direnovasi pada tahun 2008.
+            </p>
+          </div>
+        </div>
+
+        <!-- Repeat the structure for Accordion 8 to 15 -->
+
+        <!-- Accordion 8 -->
+        <h2 id="accordion-color-heading-8">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-ring_acord dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-hover_acord dark:hover:bg-gray-800 gap-3"
+            data-accordion-target="#accordion-color-body-8"
+            aria-expanded="false"
+            aria-controls="accordion-color-body-8"
+          >
+            <span>8. Masjid Istikmal Kembangputihan (1965)</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-color-body-8"
+          class="hidden"
+          aria-labelledby="accordion-color-heading-8"
+        >
+          <div
+            class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+          >
+            <img
+              class="fotomasjid"
+              src="src/img/Masjid/kembangputihan.jpg"
+              alt=""
+            />
+            <p class="mb-2 text-gray-500 dark:text-gray-400">
+              Masjid Istikmal dibangun pada tahun 1965 oleh Kyai Thohir dan
+              terletak di Kembangputihan, Guwosari, Pajangan, Bantul. Masjid ini
+              memiliki luas tanah 406 m² dan luas bangunan 168 m² dengan status
+              bangunan wakaf. SDM masjid ini terdiri dari 1 Imam, 5 Khotib, dan
+              1 Muadzin.
+            </p>
+          </div>
+        </div>
+
+        <!-- Repeat the structure for Accordion 9 to 15 -->
+
+        <!-- Accordion 9 -->
+        <h2 id="accordion-color-heading-9">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-ring_acord dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-hover_acord dark:hover:bg-gray-800 gap-3"
+            data-accordion-target="#accordion-color-body-9"
+            aria-expanded="false"
+            aria-controls="accordion-color-body-9"
+          >
+            <span>9. Masjid Al-Mubarok Gandekan (1970-an)</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-color-body-9"
+          class="hidden"
+          aria-labelledby="accordion-color-heading-9"
+        >
+          <div
+            class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+          >
+            <img
+              class="fotomasjid"
+              src="src/img/Masjid/masjidgandekan.jpg"
+              alt=""
+            />
+            <p class="mb-2 text-gray-500 dark:text-gray-400">
+              Masjid Al-Mubarok di Gandekan, Guwosari, Bantul, adalah
+              pengembangan dari Mushola Al-Mubarok yang didirikan pada
+              pertengahan tahun 1900an. Setelah gempa Yogyakarta tahun 2006,
+              masjid ini direnovasi total dan diresmikan pada 14 Februari 2011
+              oleh Bupati Bantul, Hj. Sri Surya Widati. Masjid ini juga memiliki
+              beduk hibah dari Masjid Al-Hidayah, yang telah ada sejak sekitar
+              tahun 1954.
+            </p>
+          </div>
+        </div>
+
+        <!-- Repeat the structure for Accordion 10 to 15 -->
+
+        <!-- Accordion 10 -->
+        <h2 id="accordion-color-heading-10">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray -500 border border-gray-200 focus:ring-4 focus:ring-ring_acord dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-hover_acord dark:hover:bg-gray-800 gap-3"
+            data-accordion-target="#accordion-color-body-10"
+            aria-expanded="false"
+            aria-controls="accordion-color-body-10"
+          >
+            <span>10. Masjid Safinatul Qarim Kalakijo (1970-an)</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-color-body-10"
+          class="hidden"
+          aria-labelledby="accordion-color-heading-10"
+        >
+          <div
+            class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+          >
+            <img
+              class="fotomasjid"
+              src="src/img/Masjid/masjidkalakijo.jpg"
+              alt=""
+            />
+            <p class="mb-2 text-gray-500 dark:text-gray-400 text-justify">
+              Masjid Safinatul Karim di Dukuh Kalakijo, Guwosari, diperkirakan
+              dibangun sekitar tahun 1970-an oleh Bapak Prawono Husodo, pendiri
+              lembaga Muhammadiyah di Kecamatan Pajangan. Masjid ini menjadi
+              pusat pengelolaan Muhammadiyah wilayah Pajangan dan
+              menyelenggarakan berbagai kegiatan, seperti TPA, pengajian rutin
+              malam Jumat, dan pengelolaan UKM oleh para kader Muhammadiyah.
+            </p>
+          </div>
+        </div>
+
+        <!-- Repeat the structure for Accordion 11 to 15 -->
+
+        <!-- Accordion 11 -->
+        <h2 id="accordion-color-heading-11">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-ring_acord dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-hover_acord dark:hover:bg-gray-800 gap-3"
+            data-accordion-target="#accordion-color-body-11"
+            aria-expanded="false"
+            aria-controls="accordion-color-body-11"
+          >
+            <span>11. Masjid Shodiqin Pringgading (1980-an)</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-color-body-11"
+          class="hidden"
+          aria-labelledby="accordion-color-heading-11"
+        >
+          <div
+            class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+          >
+            <img
+              class="fotomasjid"
+              src="src/img/Masjid/pringgading.jpg"
+              alt=""
+            />
+            <p class="mb-2 text-gray-500 dark:text-gray-400 text-justify">
+              Masjid Shodiqin adalah masjid pertama di Dukuh Pringgading,
+              dibangun sekitar tahun 1980-an oleh Mbah Kaum Abu Bakir bersama
+              warga setempat. Masjid ini berdiri di atas tanah wakaf dari mantan
+              ketua dukuh dengan ukuran 14x16 m².
+            </p>
+          </div>
+        </div>
+
+        <!-- Repeat the structure for Accordion 12 to 15 -->
+
+        <!-- Accordion 12 -->
+        <h2 id="accordion-color-heading-12">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-ring_acord dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-hover_acord dark:hover:bg-gray-800 gap-3"
+            data-accordion-target="#accordion-color-body-12"
+            aria-expanded="false"
+            aria-controls="accordion-color-body-12"
+          >
+            <span>12. Masjid Muhlisin Bungsing</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-color-body-12"
+          class="hidden"
+          aria-labelledby="accordion-color-heading-12"
+        >
+          <div
+            class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+          >
+            <img class="fotomasjid" src="src/img/Masjid/bungsing.jpg" alt="" />
+            <p class="mb-2 text-gray-500 dark:text-gray-400">
+              Your accordion content goes here.
+            </p>
+          </div>
+        </div>
+
+        <!-- Repeat the structure for Accordion 13 to 15 -->
+
+        <!-- Accordion 13 -->
+        <h2 id="accordion-color-heading-13">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-ring_acord dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-hover_acord dark:hover:bg-gray-800 gap-3"
+            data-accordion-target="#accordion-color-body-13"
+            aria-expanded="false"
+            aria-controls="accordion-color-body-13"
+          >
+            <span>13. Masjid Aminin Kentolan Lor</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-color-body-13"
+          class="hidden"
+          aria-labelledby="accordion-color-heading-13"
+        >
+          <div
+            class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+          >
+            <img
+              class="fotomasjid"
+              src="src/img/Masjid/kentolanlor.jpg"
+              alt=""
+            />
+            <p class="mb-2 text-gray-500 dark:text-gray-400 text-justify"></p>
+          </div>
+        </div>
+
+        <!-- Accordion 14 -->
+        <h2 id="accordion-color-heading-14">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-ring_acord dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-hover_acord dark:hover:bg-gray-800 gap-3"
+            data-accordion-target="#accordion-color-body-14"
+            aria-expanded="false"
+            aria-controls="accordion-color-body-14"
+          >
+            <span> 14. Masjid Al Hidayah Dukuh</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-color-body-14"
+          class="hidden"
+          aria-labelledby="accordion-color-heading-14"
+        >
+          <div
+            class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+          >
+            <img class="fotomasjid" src="src/img/Masjid/dukuh.jpg" alt="" />
+            <p class="mb-2 text-gray-500 dark:text-gray-400 text-justify"></p>
+          </div>
+        </div>
+
+        <!-- Accordion 15 -->
+        <h2 id="accordion-color-heading-15">
+          <button
+            type="button"
+            class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-ring_acord dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-hover_acord dark:hover:bg-gray-800 gap-3"
+            data-accordion-target="#accordion-color-body-15"
+            aria-expanded="false"
+            aria-controls="accordion-color-body-15"
+          >
+            <span>15. Masjid Miftakhul Iman Kembang Gedhe</span>
+            <svg
+              data-accordion-icon
+              class="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5 5 1 1 5"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-color-body-15"
+          class="hidden"
+          aria-labelledby="accordion-color-heading-15"
+        >
+          <div
+            class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+          >
+            <img
+              class="fotomasjid"
+              src="src/img/Masjid/kembanggedhe.jpg"
+              alt=""
+            />
+            <p class="mb-2 text-gray-500 dark:text-gray-400 text-justify"></p>
+          </div>
+        </div>
+
+        <!-- stop -->
+      </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
