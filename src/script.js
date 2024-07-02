@@ -19,22 +19,3 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     }
   });
 });
-
-document.querySelectorAll("a").forEach((anchor) => {
-  anchor.addEventListener("click", function (event) {
-    event.preventDefault();
-
-    // Dapatkan elemen yang memiliki kelas 'menu-on' jika ada
-    let currentMenuOn = document.querySelector("a.menu-on");
-
-    // Jika ada elemen yang memiliki kelas 'menu-on', ubah kelasnya menjadi 'menu-off'
-    if (currentMenuOn) {
-      currentMenuOn.classList.remove("menu-on");
-      currentMenuOn.classList.add("menu-off");
-    }
-
-    // Tambahkan kelas 'menu-on' ke elemen yang ditekan
-    this.classList.remove("menu-off");
-    this.classList.add("menu-on");
-  });
-});
