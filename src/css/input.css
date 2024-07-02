@@ -1,30 +1,11 @@
+/* @tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .menu-on {
   @apply block py-2 px-3 text-white bg-default rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500;
 }
 
 .menu-off {
   @apply block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700;
-}
-
-html {
-  -webkit-tap-highlight-color: transparent; /* Untuk Safari */
-  tap-highlight-color: transparent; /* Untuk browser lain */
-  -webkit-text-size-adjust: 100%; /* Untuk Safari dan Chrome */
-  text-size-adjust: 100%; /* Untuk browser lain */
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0); /* Deprecated */
-  clip-path: inset(50%); /* Pengganti */
-  border: 0;
 }
