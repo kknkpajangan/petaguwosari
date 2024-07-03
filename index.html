@@ -89,642 +89,650 @@
 
     <!-- Beranda -->
     <header id="beranda" class="pt-28 flex flex-wrap justify-center">
-      <img class="w-3/5" src="src/img/peta.png" alt="peta" />
+      <img
+        class="w-3/5 md:w-14 lg:w-2/6 lg:p-40"
+        src="src/img/peta.png"
+        alt="peta"
+      />
       <!-- Tulisan selamat datang -->
-      <div class="p-5 pt-10">
-        <h1
-          class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
-        >
-          Selamat datang di
-          <span class="text-default dark:text-blue-500"
-            >Peta Peninggalan Sejarah</span
+      <div class="lg:items-center lg:flex lg:w-1/2">
+        <div class="p-5 pt-10">
+          <h1
+            class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
           >
-          Desa Guwosari
-        </h1>
-        <p
-          class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400"
-        >
-          Sebuah kalurahan yang terletak di Kapanewon Pajangan. Guwosari kaya
-          akan peninggalan kebudayaan Islam dan berbagai situs bersejarah yang
-          penting.
-        </p>
-        <a
-          href="#situs"
-          class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-default rounded-lg hover:bg-hover focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 mt-5"
-        >
-          Mulai
-          <svg
-            class="w-3.5 h-3.5 ms-2 rtl:rotate-180"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 14 10"
+            Selamat datang di
+            <span class="text-default dark:text-blue-500"
+              >Peta Peninggalan Sejarah</span
+            >
+            Desa Guwosari
+          </h1>
+          <p
+            class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400"
           >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M1 5h12m0 0L9 1m4 4L9 9"
-            />
-          </svg>
-        </a>
+            Sebuah kalurahan yang terletak di Kapanewon Pajangan. Guwosari kaya
+            akan peninggalan kebudayaan Islam dan berbagai situs bersejarah yang
+            penting.
+          </p>
+          <a
+            href="#situs"
+            class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-default rounded-lg hover:bg-hover focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 mt-5"
+          >
+            Mulai
+            <svg
+              class="w-3.5 h-3.5 ms-2 rtl:rotate-180"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+          </a>
+        </div>
       </div>
     </header>
     <!-- Akhir beranda -->
 
-    <!-- situs -->
-    <main id="situs" class="pt-24 p-5">
-      <h1
-        class="mb-8 text-4xl font-extrabold leading-none tracking-tight text-default md:text-5xl lg:text-6xl dark:text-white"
-      >
-        Daftar Situs<br />Bersejarah
-      </h1>
-      <div>
-        <div id="accordion-collapse" data-accordion="collapse">
-          <!-- Accordion 1 -->
-          <h2 id="accordion-collapse-heading-1">
-            <button
-              type="button"
-              class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-              data-accordion-target="#accordion-collapse-body-1"
-              aria-expanded="true"
-              aria-controls="accordion-collapse-body-1"
-            >
-              <span>1. Masjid Ichsanullah</span>
-              <svg
-                data-accordion-icon
-                class="w-3 h-3 rotate-180 shrink-0"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 10 6"
+    <div class="lg:flex lg:flexwrap lg:justify-center lg:mt-32">
+      <!-- situs -->
+      <main id="situs" class="pt-24 p-5 lg:w-1/3 lg:pt-0">
+        <h1
+          class="mb-8 text-4xl font-extrabold leading-none tracking-tight text-default md:text-5xl lg:text-6xl dark:text-white"
+        >
+          Daftar Situs<br />Bersejarah
+        </h1>
+        <div>
+          <div id="accordion-collapse" data-accordion="collapse">
+            <!-- Accordion 1 -->
+            <h2 id="accordion-collapse-heading-1">
+              <button
+                type="button"
+                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                data-accordion-target="#accordion-collapse-body-1"
+                aria-expanded="true"
+                aria-controls="accordion-collapse-body-1"
               >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5 5 1 1 5"
-                />
-              </svg>
-            </button>
-          </h2>
-          <div
-            id="accordion-collapse-body-1"
-            class="hidden"
-            aria-labelledby="accordion-collapse-heading-1"
-          >
+                <span>1. Masjid Ichsanullah</span>
+                <svg
+                  data-accordion-icon
+                  class="w-3 h-3 rotate-180 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h2>
             <div
-              class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900"
+              id="accordion-collapse-body-1"
+              class="hidden"
+              aria-labelledby="accordion-collapse-heading-1"
             >
-              <img src="src/img/masjidgrogol.png" alt="masjidgrogol" />
-              <p class="mb-2 text-gray-500 dark:text-gray-400">
-                Masjid Ichsanullah adalah salah satu dari sebelas masjid yang
-                dibangun oleh Kiai Thohir, seorang pendakwah besar di wilayah
-                Pajangan. Masjid ini didirikan pada tahun 1959 dan telah
-                mengalami tiga kali renovasi, dengan perbaikan terakhir
-                dilakukan pada tahun 2018. Status bangunan ini adalah wakaf.
-              </p>
+              <div
+                class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900"
+              >
+                <img src="src/img/masjidgrogol.png" alt="masjidgrogol" />
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Masjid Ichsanullah adalah salah satu dari sebelas masjid yang
+                  dibangun oleh Kiai Thohir, seorang pendakwah besar di wilayah
+                  Pajangan. Masjid ini didirikan pada tahun 1959 dan telah
+                  mengalami tiga kali renovasi, dengan perbaikan terakhir
+                  dilakukan pada tahun 2018. Status bangunan ini adalah wakaf.
+                </p>
+              </div>
             </div>
-          </div>
-          <!-- Accordion 2 -->
-          <h2 id="accordion-collapse-heading-2">
-            <button
-              type="button"
-              class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-              data-accordion-target="#accordion-collapse-body-2"
-              aria-expanded="false"
-              aria-controls="accordion-collapse-body-2"
-            >
-              <span>2. Masjid Muhlisin</span>
-              <svg
-                data-accordion-icon
-                class="w-3 h-3 rotate-180 shrink-0"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 10 6"
+            <!-- Accordion 2 -->
+            <h2 id="accordion-collapse-heading-2">
+              <button
+                type="button"
+                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                data-accordion-target="#accordion-collapse-body-2"
+                aria-expanded="false"
+                aria-controls="accordion-collapse-body-2"
               >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5 5 1 1 5"
-                />
-              </svg>
-            </button>
-          </h2>
-          <div
-            id="accordion-collapse-body-2"
-            class="hidden"
-            aria-labelledby="accordion-collapse-heading-2"
-          >
+                <span>2. Masjid Muhlisin</span>
+                <svg
+                  data-accordion-icon
+                  class="w-3 h-3 rotate-180 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h2>
             <div
-              class="p-5 border border-b-0 border-gray-200 dark:border-gray-700"
+              id="accordion-collapse-body-2"
+              class="hidden"
+              aria-labelledby="accordion-collapse-heading-2"
             >
-              <img src="src/img/bungsing.jpg" alt="bungsing" />
-              <p class="mb-2 text-gray-500 dark:text-gray-400">
-                Masjid Muhlisin terletak di dusun Waung, Bungsing. Masjid ini
-                memiliki keunikan tersendiri, yaitu adzan sholat Jum'at yang
-                dikumandangkan oleh empat muadzin secara bersamaan.
-              </p>
+              <div
+                class="p-5 border border-b-0 border-gray-200 dark:border-gray-700"
+              >
+                <img src="src/img/bungsing.jpg" alt="bungsing" />
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Masjid Muhlisin terletak di dusun Waung, Bungsing. Masjid ini
+                  memiliki keunikan tersendiri, yaitu adzan sholat Jum'at yang
+                  dikumandangkan oleh empat muadzin secara bersamaan.
+                </p>
+              </div>
             </div>
-          </div>
-          <!-- Accordion 3 -->
-          <h2 id="accordion-collapse-heading-3">
-            <button
-              type="button"
-              class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-              data-accordion-target="#accordion-collapse-body-3"
-              aria-expanded="false"
-              aria-controls="accordion-collapse-body-3"
-            >
-              <span>3. Masjid Tegalrejo Kedung</span>
-              <svg
-                data-accordion-icon
-                class="w-3 h-3 rotate-180 shrink-0"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 10 6"
+            <!-- Accordion 3 -->
+            <h2 id="accordion-collapse-heading-3">
+              <button
+                type="button"
+                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                data-accordion-target="#accordion-collapse-body-3"
+                aria-expanded="false"
+                aria-controls="accordion-collapse-body-3"
               >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5 5 1 1 5"
-                />
-              </svg>
-            </button>
-          </h2>
-          <div
-            id="accordion-collapse-body-3"
-            class="hidden"
-            aria-labelledby="accordion-collapse-heading-3"
-          >
+                <span>3. Masjid Tegalrejo Kedung</span>
+                <svg
+                  data-accordion-icon
+                  class="w-3 h-3 rotate-180 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h2>
             <div
-              class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              id="accordion-collapse-body-3"
+              class="hidden"
+              aria-labelledby="accordion-collapse-heading-3"
             >
-              <img src="src/img/Masjid-kedung.jpg" alt="Masjid-kedung" />
-              <p class="mb-2 text-gray-500 dark:text-gray-400">
-                Masjid Tegalrejo Kedung dibangun pada tahun 1930. Pada masa
-                lalu, masjid ini menjadi pusat peribadatan bagi warga dusun
-                sekitar. Menurut penuturan Dukuh Iroyudan, Muhammad Hisyam,
-                sebelum Masjid Al-Munir Iroyudan didirikan, warga Iroyudan
-                sering mengaji di Masjid Tegalrejo Kedung. Saat ini, masjid
-                tersebut telah dipugar secara keseluruhan.
-              </p>
+              <div
+                class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              >
+                <img src="src/img/Masjid-kedung.jpg" alt="Masjid-kedung" />
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Masjid Tegalrejo Kedung dibangun pada tahun 1930. Pada masa
+                  lalu, masjid ini menjadi pusat peribadatan bagi warga dusun
+                  sekitar. Menurut penuturan Dukuh Iroyudan, Muhammad Hisyam,
+                  sebelum Masjid Al-Munir Iroyudan didirikan, warga Iroyudan
+                  sering mengaji di Masjid Tegalrejo Kedung. Saat ini, masjid
+                  tersebut telah dipugar secara keseluruhan.
+                </p>
+              </div>
             </div>
-          </div>
-          <!-- Accordion 4 -->
-          <h2 id="accordion-collapse-heading-4">
-            <button
-              type="button"
-              class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-              data-accordion-target="#accordion-collapse-body-4"
-              aria-expanded="false"
-              aria-controls="accordion-collapse-body-4"
-            >
-              <span>4. Makam Raden Wongsoboyo</span>
-              <svg
-                data-accordion-icon
-                class="w-3 h-3 rotate-180 shrink-0"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 10 6"
+            <!-- Accordion 4 -->
+            <h2 id="accordion-collapse-heading-4">
+              <button
+                type="button"
+                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                data-accordion-target="#accordion-collapse-body-4"
+                aria-expanded="false"
+                aria-controls="accordion-collapse-body-4"
               >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5 5 1 1 5"
-                />
-              </svg>
-            </button>
-          </h2>
-          <div
-            id="accordion-collapse-body-4"
-            class="hidden"
-            aria-labelledby="accordion-collapse-heading-4"
-          >
+                <span>4. Makam Raden Wongsoboyo</span>
+                <svg
+                  data-accordion-icon
+                  class="w-3 h-3 rotate-180 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h2>
             <div
-              class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              id="accordion-collapse-body-4"
+              class="hidden"
+              aria-labelledby="accordion-collapse-heading-4"
             >
-              <img src="src/img/sentonolor.jpg" alt="sentonolor" />
-              <p class="mb-2 text-gray-500 dark:text-gray-400">
-                Makam Raden Wongsoboyo, seorang penyebar agama Islam di
-                Guwosari, terletak di kompleks pemakaman Sentono Lor. Makam ini
-                dibangun pada 21 April 1986 di atas tanah keraton yang
-                diputihkan dan menampung para ulama serta tokoh agama. Raden
-                Wongsoboyo dimakamkan di sini dengan nisan kayu jati yang
-                menunjukkan usianya sekitar tahun 1800 M. Kompleks ini juga
-                menampung keturunan dari Pangeran Hamengkubuwono III.
-              </p>
+              <div
+                class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              >
+                <img src="src/img/sentonolor.jpg" alt="sentonolor" />
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Makam Raden Wongsoboyo, seorang penyebar agama Islam di
+                  Guwosari, terletak di kompleks pemakaman Sentono Lor. Makam
+                  ini dibangun pada 21 April 1986 di atas tanah keraton yang
+                  diputihkan dan menampung para ulama serta tokoh agama. Raden
+                  Wongsoboyo dimakamkan di sini dengan nisan kayu jati yang
+                  menunjukkan usianya sekitar tahun 1800 M. Kompleks ini juga
+                  menampung keturunan dari Pangeran Hamengkubuwono III.
+                </p>
+              </div>
             </div>
-          </div>
-          <!-- Accordion 5 -->
-          <h2 id="accordion-collapse-heading-5">
-            <button
-              type="button"
-              class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-              data-accordion-target="#accordion-collapse-body-5"
-              aria-expanded="false"
-              aria-controls="accordion-collapse-body-5"
-            >
-              <span>5. Makam Nyai Gerji</span>
-              <svg
-                data-accordion-icon
-                class="w-3 h-3 rotate-180 shrink-0"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 10 6"
+            <!-- Accordion 5 -->
+            <h2 id="accordion-collapse-heading-5">
+              <button
+                type="button"
+                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                data-accordion-target="#accordion-collapse-body-5"
+                aria-expanded="false"
+                aria-controls="accordion-collapse-body-5"
               >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5 5 1 1 5"
-                />
-              </svg>
-            </button>
-          </h2>
-          <div
-            id="accordion-collapse-body-5"
-            class="hidden"
-            aria-labelledby="accordion-collapse-heading-5"
-          >
+                <span>5. Makam Nyai Gerji</span>
+                <svg
+                  data-accordion-icon
+                  class="w-3 h-3 rotate-180 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h2>
             <div
-              class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              id="accordion-collapse-body-5"
+              class="hidden"
+              aria-labelledby="accordion-collapse-heading-5"
             >
-              <img src="src/img/bendosari.jpg" alt="bendosari" />
-              <p class="mb-2 text-gray-500 dark:text-gray-400">
-                Makam Nyai Gerji terletak di komplek pemakaman Bendosari. Nyai
-                Gerji adalah seorang tokoh dari era Mataram Islam generasi kedua
-                atau ketiga (sekitar tahun 1600-an M). Makam ini menjadi saksi
-                sejarah penting pada masa pemerintahan Sinuwun Sultan
-                Hanyokrowati atau Hanyokrokusuma.
-              </p>
+              <div
+                class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              >
+                <img src="src/img/bendosari.jpg" alt="bendosari" />
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Makam Nyai Gerji terletak di komplek pemakaman Bendosari. Nyai
+                  Gerji adalah seorang tokoh dari era Mataram Islam generasi
+                  kedua atau ketiga (sekitar tahun 1600-an M). Makam ini menjadi
+                  saksi sejarah penting pada masa pemerintahan Sinuwun Sultan
+                  Hanyokrowati atau Hanyokrokusuma.
+                </p>
+              </div>
             </div>
-          </div>
-          <!-- Accordion 6 -->
-          <h2 id="accordion-collapse-heading-6">
-            <button
-              type="button"
-              class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-              data-accordion-target="#accordion-collapse-body-6"
-              aria-expanded="false"
-              aria-controls="accordion-collapse-body-6"
-            >
-              <span>6. Makam Ki Ageng Mangir Megatsari</span>
-              <svg
-                data-accordion-icon
-                class="w-3 h-3 rotate-180 shrink-0"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 10 6"
+            <!-- Accordion 6 -->
+            <h2 id="accordion-collapse-heading-6">
+              <button
+                type="button"
+                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                data-accordion-target="#accordion-collapse-body-6"
+                aria-expanded="false"
+                aria-controls="accordion-collapse-body-6"
               >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5 5 1 1 5"
-                />
-              </svg>
-            </button>
-          </h2>
-          <div
-            id="accordion-collapse-body-6"
-            class="hidden"
-            aria-labelledby="accordion-collapse-heading-6"
-          >
+                <span>6. Makam Ki Ageng Mangir Megatsari</span>
+                <svg
+                  data-accordion-icon
+                  class="w-3 h-3 rotate-180 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h2>
             <div
-              class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              id="accordion-collapse-body-6"
+              class="hidden"
+              aria-labelledby="accordion-collapse-heading-6"
             >
-              <img src="src/img/karangber.jpg" alt="karangber" />
-              <img src="src/img/karangber2.jpg" alt="karangber2" />
-              <p class="mb-2 text-gray-500 dark:text-gray-400">
-                Di Dukuh Karangber, tepatnya di Pasarean Panti Laya, terdapat
-                makam Mbah Jenggot, yang dikenal juga sebagai Ki Ageng Mangir
-                Megatsari, penguasa bumi Mangir pertama dari abad ke-15 M.
-                Kompleks pemakaman ini pertama kali dibangun pada tahun 1972 dan
-                merupakan tempat penting bagi masyarakat Karangber.
-              </p>
+              <div
+                class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              >
+                <img src="src/img/karangber.jpg" alt="karangber" />
+                <img src="src/img/karangber2.jpg" alt="karangber2" />
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Di Dukuh Karangber, tepatnya di Pasarean Panti Laya, terdapat
+                  makam Mbah Jenggot, yang dikenal juga sebagai Ki Ageng Mangir
+                  Megatsari, penguasa bumi Mangir pertama dari abad ke-15 M.
+                  Kompleks pemakaman ini pertama kali dibangun pada tahun 1972
+                  dan merupakan tempat penting bagi masyarakat Karangber.
+                </p>
+              </div>
             </div>
-          </div>
-          <!-- Accordion 7 -->
-          <h2 id="accordion-collapse-heading-7">
-            <button
-              type="button"
-              class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-              data-accordion-target="#accordion-collapse-body-7"
-              aria-expanded="false"
-              aria-controls="accordion-collapse-body-7"
-            >
-              <span>7. Gua Selarong</span>
-              <svg
-                data-accordion-icon
-                class="w-3 h-3 rotate-180 shrink-0"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 10 6"
+            <!-- Accordion 7 -->
+            <h2 id="accordion-collapse-heading-7">
+              <button
+                type="button"
+                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                data-accordion-target="#accordion-collapse-body-7"
+                aria-expanded="false"
+                aria-controls="accordion-collapse-body-7"
               >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5 5 1 1 5"
-                />
-              </svg>
-            </button>
-          </h2>
-          <div
-            id="accordion-collapse-body-7"
-            class="hidden"
-            aria-labelledby="accordion-collapse-heading-7"
-          >
+                <span>7. Gua Selarong</span>
+                <svg
+                  data-accordion-icon
+                  class="w-3 h-3 rotate-180 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h2>
             <div
-              class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              id="accordion-collapse-body-7"
+              class="hidden"
+              aria-labelledby="accordion-collapse-heading-7"
             >
-              <img src="src/img/guakakung.jpg" alt="kakung" />
-              <img src="src/img/guaputri.jpg" alt="putri" />
-              <p class="mb-2 text-gray-500 dark:text-gray-400">
-                Gua Selarong merupakan salah satu tempat bersejarah di kalurahan
-                Guwosari, yang menjadi tempat spiritual bagi Pangeran
-                Diponegoro.
-              </p>
+              <div
+                class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              >
+                <img src="src/img/guakakung.jpg" alt="kakung" />
+                <img src="src/img/guaputri.jpg" alt="putri" />
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Gua Selarong merupakan salah satu tempat bersejarah di
+                  kalurahan Guwosari, yang menjadi tempat spiritual bagi
+                  Pangeran Diponegoro.
+                </p>
+              </div>
             </div>
-          </div>
-          <!-- Accordion 8 -->
-          <h2 id="accordion-collapse-heading-8">
-            <button
-              type="button"
-              class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-              data-accordion-target="#accordion-collapse-body-8"
-              aria-expanded="false"
-              aria-controls="accordion-collapse-body-8"
-            >
-              <span>8. Yoni Kuno di Gua Selarong</span>
-              <svg
-                data-accordion-icon
-                class="w-3 h-3 rotate-180 shrink-0"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 10 6"
+            <!-- Accordion 8 -->
+            <h2 id="accordion-collapse-heading-8">
+              <button
+                type="button"
+                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                data-accordion-target="#accordion-collapse-body-8"
+                aria-expanded="false"
+                aria-controls="accordion-collapse-body-8"
               >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5 5 1 1 5"
-                />
-              </svg>
-            </button>
-          </h2>
-          <div
-            id="accordion-collapse-body-8"
-            class="hidden"
-            aria-labelledby="accordion-collapse-heading-8"
-          >
+                <span>8. Yoni Kuno di Gua Selarong</span>
+                <svg
+                  data-accordion-icon
+                  class="w-3 h-3 rotate-180 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h2>
             <div
-              class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              id="accordion-collapse-body-8"
+              class="hidden"
+              aria-labelledby="accordion-collapse-heading-8"
             >
-              <img src="src/img/yoni.jpg" alt="yoni1" />
-              <img src="src/img/yoni-2.jpg" alt="" />
-              <p class="mb-2 text-gray-500 dark:text-gray-400">
-                Yoni ini merupakan peninggalan dari Kerajaan Mataram Kuno
-                sebelum Islam datang di wilayah Selarong
-              </p>
+              <div
+                class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              >
+                <img src="src/img/yoni.jpg" alt="yoni1" />
+                <img src="src/img/yoni-2.jpg" alt="" />
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Yoni ini merupakan peninggalan dari Kerajaan Mataram Kuno
+                  sebelum Islam datang di wilayah Selarong
+                </p>
+              </div>
             </div>
-          </div>
-          <!-- Accordion 9 -->
-          <h2 id="accordion-collapse-heading-9">
-            <button
-              type="button"
-              class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-              data-accordion-target="#accordion-collapse-body-9"
-              aria-expanded="false"
-              aria-controls="accordion-collapse-body-9"
-            >
-              <span>9. Makam di atas Gua Selarong</span>
-              <svg
-                data-accordion-icon
-                class="w-3 h-3 rotate-180 shrink-0"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 10 6"
+            <!-- Accordion 9 -->
+            <h2 id="accordion-collapse-heading-9">
+              <button
+                type="button"
+                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                data-accordion-target="#accordion-collapse-body-9"
+                aria-expanded="false"
+                aria-controls="accordion-collapse-body-9"
               >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5 5 1 1 5"
-                />
-              </svg>
-            </button>
-          </h2>
-          <div
-            id="accordion-collapse-body-9"
-            class="hidden"
-            aria-labelledby="accordion-collapse-heading-9"
-          >
+                <span>9. Makam di atas Gua Selarong</span>
+                <svg
+                  data-accordion-icon
+                  class="w-3 h-3 rotate-180 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h2>
             <div
-              class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              id="accordion-collapse-body-9"
+              class="hidden"
+              aria-labelledby="accordion-collapse-heading-9"
             >
-              <img src="src/img/makamatasgua.png" alt="makamatasgua" />
-              <p class="mb-2 text-gray-500 dark:text-gray-400">
-                Menurut warga sekitar, makam ini diyakini sebagai makam guru
-                spiritual Pangeran Diponegoro. Namun, berdasarkan temuan tim KKN
-                di lapangan, motif dan corak batu nisannya menunjukkan bahwa
-                usia makam tersebut tidak sesuai dengan periode hidup guru
-                Pangeran Diponegoro.
-              </p>
+              <div
+                class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              >
+                <img src="src/img/makamatasgua.png" alt="makamatasgua" />
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Menurut warga sekitar, makam ini diyakini sebagai makam guru
+                  spiritual Pangeran Diponegoro. Namun, berdasarkan temuan tim
+                  KKN di lapangan, motif dan corak batu nisannya menunjukkan
+                  bahwa usia makam tersebut tidak sesuai dengan periode hidup
+                  guru Pangeran Diponegoro.
+                </p>
+              </div>
             </div>
-          </div>
-          <!-- Accordion 10 -->
-          <h2 id="accordion-collapse-heading-10">
-            <button
-              type="button"
-              class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-              data-accordion-target="#accordion-collapse-body-10"
-              aria-expanded="false"
-              aria-controls="accordion-collapse-body-10"
-            >
-              <span>10. Gedukan Jaran</span>
-              <svg
-                data-accordion-icon
-                class="w-3 h-3 rotate-180 shrink-0"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 10 6"
+            <!-- Accordion 10 -->
+            <h2 id="accordion-collapse-heading-10">
+              <button
+                type="button"
+                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                data-accordion-target="#accordion-collapse-body-10"
+                aria-expanded="false"
+                aria-controls="accordion-collapse-body-10"
               >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5 5 1 1 5"
-                />
-              </svg>
-            </button>
-          </h2>
-          <div
-            id="accordion-collapse-body-10"
-            class="hidden"
-            aria-labelledby="accordion-collapse-heading-10"
-          >
+                <span>10. Gedukan Jaran</span>
+                <svg
+                  data-accordion-icon
+                  class="w-3 h-3 rotate-180 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h2>
             <div
-              class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              id="accordion-collapse-body-10"
+              class="hidden"
+              aria-labelledby="accordion-collapse-heading-10"
             >
-              <img src="src/img/gedukan-jaran.jpg" alt="gedukan-jaran" />
-              <p class="mb-2 text-gray-500 dark:text-gray-400">
-                Gedukan Jaran merupakan tempat minum kuda Pangeran Diponegoro
-                yang terbuat dari batu. Gedukan ini berada di dusun
-                Kembangputihan
-              </p>
+              <div
+                class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              >
+                <img src="src/img/gedukan-jaran.jpg" alt="gedukan-jaran" />
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Gedukan Jaran merupakan tempat minum kuda Pangeran Diponegoro
+                  yang terbuat dari batu. Gedukan ini berada di dusun
+                  Kembangputihan
+                </p>
+              </div>
             </div>
-          </div>
-          <!-- Accordion 11 -->
-          <h2 id="accordion-collapse-heading-11">
-            <button
-              type="button"
-              class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3 rounded-b-xl"
-              data-accordion-target="#accordion-collapse-body-11"
-              aria-expanded="false"
-              aria-controls="accordion-collapse-body-11"
-            >
-              <span>11. Peninggalan Keris dan Tombak</span>
-              <svg
-                data-accordion-icon
-                class="w-3 h-3 rotate-180 shrink-0"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 10 6"
+            <!-- Accordion 11 -->
+            <h2 id="accordion-collapse-heading-11">
+              <button
+                type="button"
+                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3 rounded-b-xl"
+                data-accordion-target="#accordion-collapse-body-11"
+                aria-expanded="false"
+                aria-controls="accordion-collapse-body-11"
               >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5 5 1 1 5"
-                />
-              </svg>
-            </button>
-          </h2>
-          <div
-            id="accordion-collapse-body-11"
-            class="hidden"
-            aria-labelledby="accordion-collapse-heading-11"
-          >
+                <span>11. Peninggalan Keris dan Tombak</span>
+                <svg
+                  data-accordion-icon
+                  class="w-3 h-3 rotate-180 shrink-0"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h2>
             <div
-              class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              id="accordion-collapse-body-11"
+              class="hidden"
+              aria-labelledby="accordion-collapse-heading-11"
             >
-              <img src="src/img/keris.png" alt="keris" />
-              <img src="src/img/tombak.jpg" alt="keris" />
-              <p class="mb-2 text-gray-500 dark:text-gray-400">
-                Terdapat berbagai senjata kuno, termasuk lima keris dan dua
-                tombak, yang tersimpan di Watugedug. Senjata-senjata ini telah
-                dijaga dengan hati-hati turun-temurun oleh Pak Wagimin dan
-                ayahnya, Pak Bardi, dari leluhur mereka, Pak Wiryo Sdono. Keris
-                dan tombak ini disimpan di tempat khusus dan diperlakukan
-                sebagai pusaka dengan sangat teliti. Keris-keris tersebut
-                memiliki desain unik seperti tipe Ladrang dan Gayam, dibuat dari
-                baja tahan karat yang dicampur dengan batu meteorit, beberapa di
-                antaranya dihias dengan emas dan perak.
-              </p>
+              <div
+                class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+              >
+                <img src="src/img/keris.png" alt="keris" />
+                <img src="src/img/tombak.jpg" alt="keris" />
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Terdapat berbagai senjata kuno, termasuk lima keris dan dua
+                  tombak, yang tersimpan di Watugedug. Senjata-senjata ini telah
+                  dijaga dengan hati-hati turun-temurun oleh Pak Wagimin dan
+                  ayahnya, Pak Bardi, dari leluhur mereka, Pak Wiryo Sdono.
+                  Keris dan tombak ini disimpan di tempat khusus dan
+                  diperlakukan sebagai pusaka dengan sangat teliti. Keris-keris
+                  tersebut memiliki desain unik seperti tipe Ladrang dan Gayam,
+                  dibuat dari baja tahan karat yang dicampur dengan batu
+                  meteorit, beberapa di antaranya dihias dengan emas dan perak.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </main>
-    <!-- akhir situs -->
+      </main>
+      <!-- akhir situs -->
 
-    <!-- tentang -->
-    <footer class="p-5 pb-56">
-      <h1
-        id="tentang"
-        class="mb-10 text-4xl font-extrabold leading-none tracking-tight text-default md:text-5xl lg:text-6xl dark:text-white"
-      >
-        Tentang Kami
-      </h1>
-      <img class="rounded-2xl" src="src/img/anggotatim.png" alt="tim-kkn" />
-      <p
-        class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mt-5"
-      >
-        Kami adalah tim KKN Konversi UIN Sunan Kalijaga 2024, yang diberi tugas
-        untuk menelusuri jejak peradaban Islam di Desa Guwosari
-      </p>
-      <!-- Sosial Media -->
-      <section class="flex">
-        <!-- instagram -->
-
-        <a
-          class="mt-4 w-12 h-12 flex items-center justify-center rounded-full bg-default hover:bg-hover mr-2"
-          href="https://www.instagram.com/kkn_pajangan/"
-          target="_blank"
+      <!-- tentang -->
+      <footer class="p-5 pb-56 lg:w-1/3 lg:pt-0">
+        <h1
+          id="tentang"
+          class="mb-10 text-4xl font-extrabold leading-none tracking-tight text-default md:text-5xl lg:text-6xl dark:text-white"
         >
-          <svg
-            width="50%"
-            height="50%"
-            viewBox="0 0 256 256"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            preserveAspectRatio="xMidYMid"
+          Tentang Kami
+        </h1>
+        <img class="rounded-2xl" src="src/img/anggotatim.png" alt="tim-kkn" />
+        <p
+          class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mt-5"
+        >
+          Kami adalah tim KKN Konversi UIN Sunan Kalijaga 2024, yang diberi
+          tugas untuk menelusuri jejak peradaban Islam di Desa Guwosari
+        </p>
+        <!-- Sosial Media -->
+        <section class="flex">
+          <!-- instagram -->
+
+          <a
+            class="mt-4 w-12 h-12 flex items-center justify-center rounded-full bg-default hover:bg-hover mr-2"
+            href="https://www.instagram.com/kkn_pajangan/"
+            target="_blank"
           >
-            <g>
+            <svg
+              width="50%"
+              height="50%"
+              viewBox="0 0 256 256"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              preserveAspectRatio="xMidYMid"
+            >
+              <g>
+                <path
+                  d="M127.999746,23.06353 C162.177385,23.06353 166.225393,23.1936027 179.722476,23.8094161 C192.20235,24.3789926 198.979853,26.4642218 203.490736,28.2166477 C209.464938,30.5386501 213.729395,33.3128586 218.208268,37.7917319 C222.687141,42.2706052 225.46135,46.5350617 227.782844,52.5092638 C229.535778,57.0201472 231.621007,63.7976504 232.190584,76.277016 C232.806397,89.7746075 232.93647,93.8226147 232.93647,128.000254 C232.93647,162.177893 232.806397,166.225901 232.190584,179.722984 C231.621007,192.202858 229.535778,198.980361 227.782844,203.491244 C225.46135,209.465446 222.687141,213.729903 218.208268,218.208776 C213.729395,222.687649 209.464938,225.461858 203.490736,227.783352 C198.979853,229.536286 192.20235,231.621516 179.722476,232.191092 C166.227425,232.806905 162.179418,232.936978 127.999746,232.936978 C93.8200742,232.936978 89.772067,232.806905 76.277016,232.191092 C63.7971424,231.621516 57.0196391,229.536286 52.5092638,227.783352 C46.5345536,225.461858 42.2700971,222.687649 37.7912238,218.208776 C33.3123505,213.729903 30.538142,209.465446 28.2166477,203.491244 C26.4637138,198.980361 24.3784845,192.202858 23.808908,179.723492 C23.1930946,166.225901 23.0630219,162.177893 23.0630219,128.000254 C23.0630219,93.8226147 23.1930946,89.7746075 23.808908,76.2775241 C24.3784845,63.7976504 26.4637138,57.0201472 28.2166477,52.5092638 C30.538142,46.5350617 33.3123505,42.2706052 37.7912238,37.7917319 C42.2700971,33.3128586 46.5345536,30.5386501 52.5092638,28.2166477 C57.0196391,26.4642218 63.7971424,24.3789926 76.2765079,23.8094161 C89.7740994,23.1936027 93.8221066,23.06353 127.999746,23.06353 M127.999746,0 C93.2367791,0 88.8783247,0.147348072 75.2257637,0.770274749 C61.601148,1.39218523 52.2968794,3.55566141 44.1546281,6.72008828 C35.7374966,9.99121548 28.5992446,14.3679613 21.4833489,21.483857 C14.3674532,28.5997527 9.99070739,35.7380046 6.71958019,44.1551362 C3.55515331,52.2973875 1.39167714,61.6016561 0.769766653,75.2262718 C0.146839975,88.8783247 0,93.2372872 0,128.000254 C0,162.763221 0.146839975,167.122183 0.769766653,180.774236 C1.39167714,194.398852 3.55515331,203.703121 6.71958019,211.845372 C9.99070739,220.261995 14.3674532,227.400755 21.4833489,234.516651 C28.5992446,241.632547 35.7374966,246.009293 44.1546281,249.28042 C52.2968794,252.444847 61.601148,254.608323 75.2257637,255.230233 C88.8783247,255.85316 93.2367791,256 127.999746,256 C162.762713,256 167.121675,255.85316 180.773728,255.230233 C194.398344,254.608323 203.702613,252.444847 211.844864,249.28042 C220.261995,246.009293 227.400247,241.632547 234.516143,234.516651 C241.632039,227.400755 246.008785,220.262503 249.279912,211.845372 C252.444339,203.703121 254.607815,194.398852 255.229725,180.774236 C255.852652,167.122183 256,162.763221 256,128.000254 C256,93.2372872 255.852652,88.8783247 255.229725,75.2262718 C254.607815,61.6016561 252.444339,52.2973875 249.279912,44.1551362 C246.008785,35.7380046 241.632039,28.5997527 234.516143,21.483857 C227.400247,14.3679613 220.261995,9.99121548 211.844864,6.72008828 C203.702613,3.55566141 194.398344,1.39218523 180.773728,0.770274749 C167.121675,0.147348072 162.762713,0 127.999746,0 Z M127.999746,62.2703115 C91.698262,62.2703115 62.2698034,91.69877 62.2698034,128.000254 C62.2698034,164.301738 91.698262,193.730197 127.999746,193.730197 C164.30123,193.730197 193.729689,164.301738 193.729689,128.000254 C193.729689,91.69877 164.30123,62.2703115 127.999746,62.2703115 Z M127.999746,170.667175 C104.435741,170.667175 85.3328252,151.564259 85.3328252,128.000254 C85.3328252,104.436249 104.435741,85.3333333 127.999746,85.3333333 C151.563751,85.3333333 170.666667,104.436249 170.666667,128.000254 C170.666667,151.564259 151.563751,170.667175 127.999746,170.667175 Z M211.686338,59.6734287 C211.686338,68.1566129 204.809755,75.0337031 196.326571,75.0337031 C187.843387,75.0337031 180.966297,68.1566129 180.966297,59.6734287 C180.966297,51.1902445 187.843387,44.3136624 196.326571,44.3136624 C204.809755,44.3136624 211.686338,51.1902445 211.686338,59.6734287 Z"
+                  fill="#ffffff"
+                ></path>
+              </g>
+            </svg>
+          </a>
+
+          <!-- akhir instagram -->
+          <!-- email -->
+
+          <a
+            class="mt-4 w-12 h-12 flex items-center justify-center rounded-full bg-default hover:bg-hover"
+            href="mailto:kknpajangan02@gmail.com"
+            target="_blank"
+          >
+            <svg
+              width="50%"
+              height="50%"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <path
-                d="M127.999746,23.06353 C162.177385,23.06353 166.225393,23.1936027 179.722476,23.8094161 C192.20235,24.3789926 198.979853,26.4642218 203.490736,28.2166477 C209.464938,30.5386501 213.729395,33.3128586 218.208268,37.7917319 C222.687141,42.2706052 225.46135,46.5350617 227.782844,52.5092638 C229.535778,57.0201472 231.621007,63.7976504 232.190584,76.277016 C232.806397,89.7746075 232.93647,93.8226147 232.93647,128.000254 C232.93647,162.177893 232.806397,166.225901 232.190584,179.722984 C231.621007,192.202858 229.535778,198.980361 227.782844,203.491244 C225.46135,209.465446 222.687141,213.729903 218.208268,218.208776 C213.729395,222.687649 209.464938,225.461858 203.490736,227.783352 C198.979853,229.536286 192.20235,231.621516 179.722476,232.191092 C166.227425,232.806905 162.179418,232.936978 127.999746,232.936978 C93.8200742,232.936978 89.772067,232.806905 76.277016,232.191092 C63.7971424,231.621516 57.0196391,229.536286 52.5092638,227.783352 C46.5345536,225.461858 42.2700971,222.687649 37.7912238,218.208776 C33.3123505,213.729903 30.538142,209.465446 28.2166477,203.491244 C26.4637138,198.980361 24.3784845,192.202858 23.808908,179.723492 C23.1930946,166.225901 23.0630219,162.177893 23.0630219,128.000254 C23.0630219,93.8226147 23.1930946,89.7746075 23.808908,76.2775241 C24.3784845,63.7976504 26.4637138,57.0201472 28.2166477,52.5092638 C30.538142,46.5350617 33.3123505,42.2706052 37.7912238,37.7917319 C42.2700971,33.3128586 46.5345536,30.5386501 52.5092638,28.2166477 C57.0196391,26.4642218 63.7971424,24.3789926 76.2765079,23.8094161 C89.7740994,23.1936027 93.8221066,23.06353 127.999746,23.06353 M127.999746,0 C93.2367791,0 88.8783247,0.147348072 75.2257637,0.770274749 C61.601148,1.39218523 52.2968794,3.55566141 44.1546281,6.72008828 C35.7374966,9.99121548 28.5992446,14.3679613 21.4833489,21.483857 C14.3674532,28.5997527 9.99070739,35.7380046 6.71958019,44.1551362 C3.55515331,52.2973875 1.39167714,61.6016561 0.769766653,75.2262718 C0.146839975,88.8783247 0,93.2372872 0,128.000254 C0,162.763221 0.146839975,167.122183 0.769766653,180.774236 C1.39167714,194.398852 3.55515331,203.703121 6.71958019,211.845372 C9.99070739,220.261995 14.3674532,227.400755 21.4833489,234.516651 C28.5992446,241.632547 35.7374966,246.009293 44.1546281,249.28042 C52.2968794,252.444847 61.601148,254.608323 75.2257637,255.230233 C88.8783247,255.85316 93.2367791,256 127.999746,256 C162.762713,256 167.121675,255.85316 180.773728,255.230233 C194.398344,254.608323 203.702613,252.444847 211.844864,249.28042 C220.261995,246.009293 227.400247,241.632547 234.516143,234.516651 C241.632039,227.400755 246.008785,220.262503 249.279912,211.845372 C252.444339,203.703121 254.607815,194.398852 255.229725,180.774236 C255.852652,167.122183 256,162.763221 256,128.000254 C256,93.2372872 255.852652,88.8783247 255.229725,75.2262718 C254.607815,61.6016561 252.444339,52.2973875 249.279912,44.1551362 C246.008785,35.7380046 241.632039,28.5997527 234.516143,21.483857 C227.400247,14.3679613 220.261995,9.99121548 211.844864,6.72008828 C203.702613,3.55566141 194.398344,1.39218523 180.773728,0.770274749 C167.121675,0.147348072 162.762713,0 127.999746,0 Z M127.999746,62.2703115 C91.698262,62.2703115 62.2698034,91.69877 62.2698034,128.000254 C62.2698034,164.301738 91.698262,193.730197 127.999746,193.730197 C164.30123,193.730197 193.729689,164.301738 193.729689,128.000254 C193.729689,91.69877 164.30123,62.2703115 127.999746,62.2703115 Z M127.999746,170.667175 C104.435741,170.667175 85.3328252,151.564259 85.3328252,128.000254 C85.3328252,104.436249 104.435741,85.3333333 127.999746,85.3333333 C151.563751,85.3333333 170.666667,104.436249 170.666667,128.000254 C170.666667,151.564259 151.563751,170.667175 127.999746,170.667175 Z M211.686338,59.6734287 C211.686338,68.1566129 204.809755,75.0337031 196.326571,75.0337031 C187.843387,75.0337031 180.966297,68.1566129 180.966297,59.6734287 C180.966297,51.1902445 187.843387,44.3136624 196.326571,44.3136624 C204.809755,44.3136624 211.686338,51.1902445 211.686338,59.6734287 Z"
-                fill="#ffffff"
-              ></path>
-            </g>
-          </svg>
-        </a>
+                d="M18.3333 5.00001C18.3333 4.08334 17.5833 3.33334 16.6666 3.33334H3.33329C2.41663 3.33334 1.66663 4.08334 1.66663 5.00001M18.3333 5.00001V15C18.3333 15.9167 17.5833 16.6667 16.6666 16.6667H3.33329C2.41663 16.6667 1.66663 15.9167 1.66663 15V5.00001M18.3333 5.00001L9.99996 10.8333L1.66663 5.00001"
+                stroke="#FEFEFE"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
 
-        <!-- akhir instagram -->
-        <!-- email -->
-
-        <a
-          class="mt-4 w-12 h-12 flex items-center justify-center rounded-full bg-default hover:bg-hover"
-          href="mailto:kknpajangan02@gmail.com"
-          target="_blank"
-        >
-          <svg
-            width="50%"
-            height="50%"
-            viewBox="0 0 20 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M18.3333 5.00001C18.3333 4.08334 17.5833 3.33334 16.6666 3.33334H3.33329C2.41663 3.33334 1.66663 4.08334 1.66663 5.00001M18.3333 5.00001V15C18.3333 15.9167 17.5833 16.6667 16.6666 16.6667H3.33329C2.41663 16.6667 1.66663 15.9167 1.66663 15V5.00001M18.3333 5.00001L9.99996 10.8333L1.66663 5.00001"
-              stroke="#FEFEFE"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </a>
-
-        <!-- akhir email -->
-      </section>
-    </footer>
+          <!-- akhir email -->
+        </section>
+      </footer>
+    </div>
     <!-- akhir tentang -->
     <script src="dist/flowbite.min.js"></script>
     <script src="dist/script.js"></script>
